@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { signFailure, signInStart, signSuccess } from '../redux/user/userSlice '
-import OAuth from '../components/Oauth'
+import OAuth from '../components/OAuth'
 
 export default function SignIn() {
   const [formData, setFormData] = useState({})
